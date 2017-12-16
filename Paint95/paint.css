@@ -1,0 +1,45 @@
+#contain{
+    display: flex;
+}
+#canvas{
+    border: 2px black solid;
+    height: 500px;
+    width: 500px;
+}
+#paints{
+    border: 2px orange solid;
+    height: 500px;
+    width: 170px;
+}
+#paintRed{
+    background-color:red;
+}
+#paintBlue{
+    background-color:blue;
+}
+#paintGreen{
+    background-color:green;
+}
+#paintYellow{
+    background-color:yellow;
+}
+#paintPurple{
+    background-color:purple;
+}
+.colorChoice,#pallete,#erase{
+    width: 50px;
+    height: 50px;
+
+}
+.colorDiv{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+#plus,#minus{
+    font-size: 40px;
+
+}
